@@ -2,7 +2,7 @@
 
 # Voice Response of ChatGPT
 
-Welcome to the Voice Response of ChatGPT web app! This app allows you to interact with ChatGPT, a large language model trained by OpenAI, using your voice.
+Welcome to the Voice Response of ChatGPT web app! This app allows you to interact with ChatGPT, a large language model trained by OpenAI, using your text and you'll able to get voice response from chat gpt.
 
 ## Requirements
 
