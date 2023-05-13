@@ -109,7 +109,7 @@
   
   /* Style for the chat answer */
   .answer {
-    background-color: #e6e6e6;
+    background-color: #e64c4c;
     padding: 0.5rem;
     border-radius: 0.5rem;
     margin-bottom: 0.5rem;
@@ -120,7 +120,7 @@
     margin-top: 1rem;
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
-    background-color: #dc3545;
+    background-color: #41d36b;
     color: #fff;
     border: none;
     cursor: pointer;
