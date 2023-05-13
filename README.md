@@ -1,9 +1,9 @@
 
-##Speaking ChatGPT Response
+## Responsive ChatGPT
 
 - Welcome to the Speaking ChatGPT Response web app! This app allows you to interact with ChatGPT and get responses in spoken form.
 
-##Requirements
+## Requirements
 
 - To use the Speaking ChatGPT Response web app, you will need:
 
@@ -37,7 +37,7 @@ The Voice Response of ChatGPT web app is built using the following technologies:
 
 - Frontend: HTML, CSS, JavaScript
 - Backend: cpp(it just in trial mode, i gonna shift it to node.js, java or python maybe)
-- Voice Recognition: Web Speech API
+- ChatGPT API
 - Text-to-Speech:Google Cloud Text-to-Speech API
 
 The app is hosted on a web server and communicates with the ChatGPT API to generate responses to user input.
