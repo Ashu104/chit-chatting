@@ -1,13 +1,15 @@
 
-#Speaking ChatGPT Response
--Welcome to the Speaking ChatGPT Response web app! This app allows you to interact with ChatGPT and get responses in spoken form.
+##Speaking ChatGPT Response
 
-#Requirements
--To use the Speaking ChatGPT Response web app, you will need:
+- Welcome to the Speaking ChatGPT Response web app! This app allows you to interact with ChatGPT and get responses in spoken form.
 
-1.A modern web browser (e.g., Chrome, Firefox, Safari)
-2.A microphone (built-in or external)
-3.An internet connection
+##Requirements
+
+- To use the Speaking ChatGPT Response web app, you will need:
+
+1. A modern web browser (e.g., Chrome, Firefox, Safari)
+2. A microphone (built-in or external)
+3. An internet connection
 
 ## How to use
 
