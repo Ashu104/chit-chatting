@@ -9,9 +9,9 @@ using namespace web::http;
 using namespace web::http::client;
 using namespace concurrency::streams;
 
-const string OPENAI_API_KEY = "your-api-key-here";
+const string OPENAI_API_KEY = "8864c7c3e2104dc1b173367054fe67d2";
 const string CHATGPT_MODEL_ENDPOINT = "https://api.openai.com/v1/engines/davinci-codex/completions";
-const string TTS_API_KEY = "your-tts-api-key-here";
+const string TTS_API_KEY = "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";
 const string TTS_ENDPOINT = "https://api.text-to-speech.watson.cloud.ibm.com/instances/your-instance-id-here/v1/synthesize";
 
 string generateResponse(string input) {
