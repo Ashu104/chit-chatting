@@ -1,0 +1,19 @@
+{
+  "name": "chit-chatting",
+  "version": "1.0.0",
+  "description": "Web-based Chat GPT Project",
+  "scripts": {
+    // server.js is pending !
+    // webpack.config.js is pending too!
+    "start": "node server.js",
+    "build": "webpack --config webpack.config.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+    // still have to add other frontend dependencies here
+  },
+  "devDependencies": {
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
