@@ -29,13 +29,13 @@
     width: 100%;
     padding: 10px;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #c94364;
     margin-bottom: 10px;
   }
   
   button {
-    background-color: #4caf50;
-    color: #fff;
+    background-color: #4cc350;
+    color: #8a336e;
     padding: 10px;
     border-radius: 5px;
     border: none;
@@ -43,13 +43,13 @@
   }
   
   button:hover {
-    background-color: #3e8e41;
+    background-color: #5be15f;
   }
   
   #chat-container {
     height: 400px;
     overflow-y: scroll;
-    border: 1px solid #ccc;
+    border: 1px solid #7a4af3;
     border-radius: 5px;
     padding: 10px;
   }
