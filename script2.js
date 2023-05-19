@@ -3,6 +3,14 @@ const questionInput = document.getElementById('question-input');
 const submitBtn = document.getElementById('submit-btn');
 const clearBtn = document.getElementById('clear-btn');
 
+document.getElementById('question-input').addEventListener('keyup', function(event) {
+  event.preventDefault();
+  if (event.key === 'Enter') {
+    submitBtn.click(); // Trigger the click event on the submit button
+    questionInput.value = ''; // Clear the input value
+  }
+});
+
 submitBtn.addEventListener('click', (event) => {
   event.preventDefault();
   
@@ -21,27 +29,13 @@ submitBtn.addEventListener('click', (event) => {
     },
     body: JSON.stringify({ question: question })
   })
-  .then(response => response.json())
-  .then(data => {
-    const answer = data.answer;
-    
-    const answerElement = document.createElement('div');
-    answerElement.className = 'answer';
-    answerElement.innerText = answer;
-    
-    chatContainer.appendChild(answerElement);
-  })
-  .catch(error => {
-    console.error(error);
-  });
-  
-  questionInput.value = '';
-});
+    .then(response => response.json())
+    .then(data => {
+      // Handle the response from the API
+    })
+    .catch(error => {
+      // Handle any errors that occur during the request
+    });
 
-clearBtn.addEventListener('click', (event) => {
-  event.preventDefault();
-  
-  while (chatContainer.firstChild) {
-    chatContainer.removeChild(chatContainer.firstChild);
-  }
+  questionInput.value = ''; // Clear the input value
 });
